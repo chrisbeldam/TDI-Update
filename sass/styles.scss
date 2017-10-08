@@ -1,3 +1,9 @@
+
+$whitebg: #ffffff;
+$bluebg: #001335;
+$whitetext: white;
+$blacktext: black;
+
 *{
     box-sizing: border-box;
   }
@@ -78,7 +84,7 @@
   }
   
   .section-b{
-    background:#333;
+    background: $bluebg;
     color:#fff;
   }
   
