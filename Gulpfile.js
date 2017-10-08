@@ -22,7 +22,7 @@ gulp.task('default',function() {
 gulp.task('compress', () =>
    gulp.src('js/*.js')
   .pipe(uglify())
-  .pipe(gulp.dest('./minjs/'))
+  .pipe(gulp.dest('./MinJS/'))
 );
 
 //Compresses the CSS Files into a folder called cssnano
