@@ -1,8 +1,18 @@
 {
-  "name": "tdi-update",
+  "name": "tdiupdate",
   "version": "1.0.0",
   "description": "TDI-Update",
   "main": "Gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^3.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,14 +25,5 @@
   "bugs": {
     "url": "https://github.com/chrisbeldam/TDI-Update/issues"
   },
-  "homepage": "https://github.com/chrisbeldam/TDI-Update#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-scss": "^1.4.0",
-    "gulp-sequence": "^0.4.6",
-    "gulp-uglify": "^3.0.0"
-  }
+  "homepage": "https://github.com/chrisbeldam/TDI-Update#readme"
 }
